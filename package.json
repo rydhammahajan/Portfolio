@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Making my portfolio website",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel src/index.html",
+    "test": "zest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rydhammahajan/Portfolio.git"
+  },
+  "author": "Rydham Mahajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rydhammahajan/Portfolio/issues"
+  },
+  "homepage": "https://github.com/rydhammahajan/Portfolio#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2"
+  }
+}

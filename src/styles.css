@@ -1,0 +1,147 @@
+*{
+    margin : 0 0 ; 
+    padding :  0 0 ;
+}
+body{
+    min-width : 365px ;
+}
+.text-purple{
+    color: rgb(113,64,178);
+}
+.nav-items{
+    list-style: none;
+}
+.nav-items li:hover{
+    color:  rgb(113,64,178) !important;
+    border-bottom : 1px solid  rgb(113,64,178);
+}
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(20deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-20deg); }
+    100% { transform: rotate(0deg); }
+ } 
+.wave-hand{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.coder-girl-img{
+    border-radius:50%;
+    box-shadow: 0 0 20px rgb(113,64,178) ;
+    
+}
+@keyframes up-down{
+
+    0%{
+        transform : translateY(0px) ; 
+    }50%{
+        transform : translateY(-20px) ; 
+    }100%{
+        transform : translateY(0px) ; 
+    }
+
+}
+.tech-image{
+    animation: up-down 1.5s ;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count  :infinite ;
+}
+
+.tech-stack{
+    visibility: hidden;
+}
+
+.tech-image:hover + .tech-stack{
+    visibility: visible;
+}
+
+.tech-image:hover{
+    filter: grayscale(50%);
+}
+
+.project-image-container{
+    box-shadow: 0 0 30px grey ;
+    border-radius: 20px;
+    
+}
+.project-image{
+    width: 100%;
+    border-radius: 20px;
+}
+.project-image-container:hover{
+    transform : scale(1.1) ; 
+    transition: transform 1s;
+}
+.project-overlay{
+    width: 100%;
+    height : 100%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0 , 0.8);
+    bottom: 0;
+    visibility: hidden;
+    
+    
+}
+@keyframes overlay-animation {
+    0%{
+        height : 0% ;
+    }
+    25%{
+        height : 25% ;
+    }
+    50%{
+        height : 50% ;
+    }75%{
+        height : 75% ;
+    }
+    100%{
+        height :  100%
+    }
+}
+.project-image-container:hover  .project-overlay{
+    
+    visibility: visible;
+    animation: overlay-animation 0.2s ease-in-out;
+
+}   
+
+.contact-list a{
+    color : white ; 
+    text-decoration: none;
+    
+}
+.contact-list a:hover{
+    color : lightgrey ;
+    
+}
+
+.contact-border{
+    height: 2px;
+    width: 105%;
+    border-radius: 2px ;
+    background-color : lightgrey ; 
+    visibility: hidden;
+}
+
+@keyframes border-animation{
+    0%{
+        width : 0% ;
+    }
+    25%{
+        width : 25% ;
+    }
+    50%{
+        width : 50% ;
+    }75%{
+        width : 75% ;
+    }
+    100%{
+        width :  100%
+    }
+}
+.contact-list a:hover + .contact-border{
+    visibility: visible;
+    animation: border-animation 0.2s ease-in-out ;
+}
