@@ -18,19 +18,19 @@ const Projects = () => {
 
             <div className="d-flex flex-column align-items-center gap-5">
 
+            <SingleProject image = {weatherAppImage}
+            heading={"The Weather Channel!"}
+            description={"This is a javascript application that provides real-time weather information for various cities. It allows users to search for a specific city and view current weather conditions, including temperature, weather condition, pressure, visibility, humidity and additional details such as sunrise and sunset times, UV index, and a full-day temperature forecast."}
+            technology={"HTML5, CSS3, Bootstrap, Javascript"}
+            link = "https://rydham-weather-channel.netlify.app/"
+            />
+
             <SingleProject 
             image = {foodAppImage}
             heading={"Flavour Finders"}
             description={"The Food web application is a user-friendly platform designed to simplify the process of ordering food from various restaurants. It utilizes the React framework to create a responsive and interactive user interface. The app aims to provide a seamless experience for users, allowing them to browse different restaurants, explore menus, add items to their cart, and complete their orders with ease."}
             technology={"HTML5, CSS3, JavaScript, ReactJS, Redux Toolkit, React Router DOM, Bootstrap."}
             link = "https://flavour-finders.netlify.app/"
-            />
-
-            <SingleProject image = {weatherAppImage}
-            heading={"The Weather Channel!"}
-            description={"This is a javascript application that provides real-time weather information for various cities. It allows users to search for a specific city and view current weather conditions, including temperature, weather condition, pressure, visibility, humidity and additional details such as sunrise and sunset times, UV index, and a full-day temperature forecast."}
-            technology={"HTML5, CSS3, Bootstrap, Javascript"}
-            link = "https://rydham-weather-channel.netlify.app/"
             />
 
             <SingleProject image = {todoAppImage}
