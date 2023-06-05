@@ -47,12 +47,12 @@ const Projects = () => {
             link = "https://rydham-name-it.netlify.app/"
             />
 
-            <SingleProject image = {calculatorAppImage}
+            {/* <SingleProject image = {calculatorAppImage}
             heading={"Calculator"}
             description={"This is a javascript application designed to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The application provides users with a user-friendly interface that allows them to enter numbers and perform calculations with ease."}
             technology={"HTML5, CSS3, Bootstrap, Javascript"}
             link = "https://rydham-calculator-project.netlify.app/"
-            />
+            /> */}
 
             </div>
 
