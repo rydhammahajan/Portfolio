@@ -43,7 +43,7 @@ const Footer = () =>{
 
         </span>
 
-        <span>Copyright © 2023 Rydham Mahajan</span>
+        <span className="text-center">Copyright © 2023 Rydham Mahajan</span>
         
         </div>
     )

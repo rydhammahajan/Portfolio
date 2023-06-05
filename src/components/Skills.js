@@ -4,7 +4,7 @@ const Skills = () => {
 
         <div className="d-flex flex-column align-items-center pt-5 px-2 gap-5" id = "skills">
 
-            <span className="h1">
+            <span className="h1  text-center">
                 <span>This is my </span> 
                 <span className="text-purple">Technology Stack</span>
             </span>
