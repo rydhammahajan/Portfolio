@@ -1,7 +1,5 @@
 const SingleProject = ({image , heading  , description , technology , link}) => {
 
-    console.log(image) ;
-
     return(
         <div className="col-11 col-xl-6 d-flex flex-column align-items-center position-relative project-image-container my-4">
 

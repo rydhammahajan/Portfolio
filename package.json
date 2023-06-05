@@ -18,8 +18,7 @@
   },
   "homepage": "https://github.com/rydhammahajan/Portfolio#readme",
   "devDependencies": {
-    "parcel": "^2.8.3",
-    "process": "^0.11.10"
+    "parcel": "^2.8.3"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
