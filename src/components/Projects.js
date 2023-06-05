@@ -23,6 +23,7 @@ const Projects = () => {
             heading={"Flavour Finders"}
             description={"The Food web application is a user-friendly platform designed to simplify the process of ordering food from various restaurants. It utilizes the React framework to create a responsive and interactive user interface. The app aims to provide a seamless experience for users, allowing them to browse different restaurants, explore menus, add items to their cart, and complete their orders with ease."}
             technology={"HTML5, CSS3, JavaScript, ReactJS, Redux Toolkit, React Router DOM, Bootstrap."}
+            link = "https://flavour-finders.netlify.app/"
             />
 
             <SingleProject image = {weatherAppImage}
