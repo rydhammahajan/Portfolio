@@ -10,7 +10,7 @@ const Projects = () => {
    
     return(
 
-        <div className="py-5 d-flex flex-column align-items-center gap-5 px-2 bg-light">
+        <div className="py-5 d-flex flex-column align-items-center gap-5 px-2 projects">
             <span className="h1 text-center" id = "projects">
                 <span>Here are some of my </span> 
                 <span className="text-purple">Projects</span>

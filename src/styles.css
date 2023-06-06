@@ -5,8 +5,20 @@
 body{
     min-width : 365px ;
 }
+
+.header{
+    background-color:  rgba(113,64,178,0.4) ;
+}
 .text-purple{
     color: rgb(113,64,178);
+    
+}
+
+.nav-bar{
+    background-color: white;
+    box-shadow: 0 0 30px lightgrey;
+    top : 0px ;
+    z-index: 3;
 }
 .nav-items{
     list-style: none;
@@ -29,7 +41,7 @@ body{
 
 .coder-girl-img{
     border-radius:50%;
-    box-shadow: 0 0 20px rgb(113,64,178) ;
+    box-shadow: 0 0 40px rgb(113,64,178) ;
     
 }
 @keyframes up-down{
@@ -59,6 +71,10 @@ body{
 
 .tech-image:hover{
     filter: grayscale(50%);
+}
+
+.projects{
+    background-color: rgba(113,64,178,0.4)!important;
 }
 
 .project-image-container{

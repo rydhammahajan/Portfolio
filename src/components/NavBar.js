@@ -2,7 +2,7 @@ const NavBar = () => {
 
     return (
 
-        <div className=" d-flex justify-content-around pt-4 px-2 ">
+        <div className=" d-flex justify-content-around pt-4 px-2 position-sticky nav-bar">
 
             <span className="fs-3 text-purple fw-bolder d-sm-inline d-none">Rydham Mahajan</span>
             
