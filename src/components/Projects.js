@@ -4,6 +4,7 @@ import foodAppImage from "../assests/food-app.png"
 import todoAppImage from "../assests/todo-app.png"
 import nameItAppImage from "../assests/name-it-app.png"
 import calculatorAppImage from "../assests/calculator-app.png"
+import galleryImage from "../assests/photo-gallery.png"
 
 const Projects = () => {
 
@@ -16,7 +17,15 @@ const Projects = () => {
                 <span className="text-purple">Projects</span>
             </span>
 
-            <div className="d-flex flex-column align-items-center gap-5">
+            <div className="d-flex flex-wrap justify-content-center gap-5">
+
+            <SingleProject 
+            image = {foodAppImage}
+            heading={"Flavour Finders"}
+            description={"The Food web application is a user-friendly platform designed to simplify the process of ordering food from various restaurants. It utilizes the React framework to create a responsive and interactive user interface. The app aims to provide a seamless experience for users, allowing them to browse different restaurants, explore menus, add items to their cart, and complete their orders with ease."}
+            technology={"HTML5, CSS3, JavaScript, ReactJS, Redux Toolkit, React Router DOM, Bootstrap."}
+            link = "https://flavour-finders.netlify.app/"
+            />
 
             <SingleProject image = {weatherAppImage}
             heading={"The Weather Channel!"}
@@ -25,12 +34,11 @@ const Projects = () => {
             link = "https://rydham-weather-channel.netlify.app/"
             />
 
-            <SingleProject 
-            image = {foodAppImage}
-            heading={"Flavour Finders"}
-            description={"The Food web application is a user-friendly platform designed to simplify the process of ordering food from various restaurants. It utilizes the React framework to create a responsive and interactive user interface. The app aims to provide a seamless experience for users, allowing them to browse different restaurants, explore menus, add items to their cart, and complete their orders with ease."}
-            technology={"HTML5, CSS3, JavaScript, ReactJS, Redux Toolkit, React Router DOM, Bootstrap."}
-            link = "https://flavour-finders.netlify.app/"
+            <SingleProject image = {galleryImage}
+            heading={"Image Gallery"}
+            description={"A React application that showcases a visually appealing image gallery integrated with a practical wishlist feature. Leveraged the Pixabay API to fetch image data and enhance the variety of images available to users. Integrated the file-saver library to enable users to download images from the gallery.Incorporated light and dark theme options to provide users with a personalized and visually pleasing experience."}
+            technology={"HTML5, CSS3, Bootstrap, React.js, React Router, React Context"}
+            link = "https://rydham-photo-gallery.netlify.app/"
             />
 
             <SingleProject image = {todoAppImage}
@@ -47,12 +55,7 @@ const Projects = () => {
             link = "https://rydham-name-it.netlify.app/"
             />
 
-            {/* <SingleProject image = {calculatorAppImage}
-            heading={"Calculator"}
-            description={"This is a javascript application designed to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The application provides users with a user-friendly interface that allows them to enter numbers and perform calculations with ease."}
-            technology={"HTML5, CSS3, Bootstrap, Javascript"}
-            link = "https://rydham-calculator-project.netlify.app/"
-            /> */}
+             
 
             </div>
 

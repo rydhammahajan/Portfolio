@@ -1,7 +1,7 @@
 const SingleProject = ({image , heading  , description , technology , link}) => {
 
     return(
-        <div className="col-11 col-xl-6 d-flex flex-column align-items-center position-relative project-image-container my-4">
+        <div className="col-11 col-sm-9 col-xl-5 d-flex flex-column align-items-center position-relative project-image-container my-4">
 
             <img src={image} alt="App image" className=" project-image" />
             
